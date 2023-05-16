@@ -10,9 +10,17 @@ content = reading_file.readlines()
 print(content[num])
 
 file = open('my_file1.txt', mode='w')
-for i in range(5):
-        mynum = random.randint(0, 10)
+for i in range(100):
+        mynum = random.randint(0, 100)
         file.write(f'{mynum}\n')
+file.close()
+
+file = open('my_file2.txt', mode='w')
+for i in range(100):
+        mynum = random.randint(0, 100)
+        file.write(f'{mynum}\n')
+file.close()
+
 
 
 
