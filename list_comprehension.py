@@ -54,3 +54,30 @@ num_list = [1,1,1,2,3,5,4,7,46,45,7,4,6,11,23,24,27,11,13,12]
 
 new_even_list = [ i for i in num_list if i % 2 == 0]
 print(new_even_list)
+
+x = 7
+if x > 2 :
+    print('Value bigger than 2')
+    print('Still bigger')
+print('Done with 2')
+
+for i in range(5) :
+    print(i)
+    if i < 2 :
+        print('Bigger than 2')
+    print('Done with i', i)
+print('All Done')
+
+
+if x > 1 :
+    print('More than one')
+    if x < 100 :
+        print('Less than 100')
+print ('All done')
+
+x = 4
+if x > 2 :
+    print('Bigger')
+else :
+    print('Smaller')
+print('All done')
